@@ -1,15 +1,18 @@
 # CodeAlpha Internship – Task 3
 
-## 🤖 Object Detection and Tracking
+# Object Detection with YOLOv3  
 
-This project performs real-time object detection using Python, OpenCV, and the YOLO (You Only Look Once) pre-trained model on webcam input.
+This project uses YOLOv3 for object detection.  
 
-### ⚠️ IMPORTANT SETUP
-This project requires two large configuration files which must be manually downloaded and placed in this folder to run the model:
-1.  **`yolov3.weights`**
-2.  **`yolov3.cfg`**
+## Files in repo
+- object_detection.py
+- yolov3.cfg
+- requirements.txt  
 
-### 🚀 How to Run
-1. Install requirements:
-   ```bash
-   pip install -r requirements.txt
+## Download YOLOv3 Weights  
+GitHub does not allow files larger than 25MB.  
+Please download the `yolov3.weights` file from the official link:  
+
+👉 [Download yolov3.weights](https://pjreddie.com/media/files/yolov3.weights)
+
+After downloading, put the `yolov3.weights` file in the project folder before running the code.
